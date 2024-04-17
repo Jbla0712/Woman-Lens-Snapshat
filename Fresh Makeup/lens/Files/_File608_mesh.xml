@@ -1,0 +1,68 @@
+<resource>
+  <int32 key="indexType">1</int32>
+  <int32 key="topology">0</int32>
+  <block key="vertexlayout">
+    <uint32 key="vertexSize">48</uint32>
+    <block key="attributes">
+      <block>
+        <string key="semantic">position</string>
+        <uint32 key="index">0</uint32>
+        <int32 key="type">5</int32>
+        <uint32 key="componentCount">3</uint32>
+        <bool8 key="normalized">False</bool8>
+        <uint32 key="offset">0</uint32>
+      </block>
+      <block>
+        <string key="semantic">normal</string>
+        <uint32 key="index">1</uint32>
+        <int32 key="type">5</int32>
+        <uint32 key="componentCount">3</uint32>
+        <bool8 key="normalized">False</bool8>
+        <uint32 key="offset">12</uint32>
+      </block>
+      <block>
+        <string key="semantic">tangent</string>
+        <uint32 key="index">2</uint32>
+        <int32 key="type">5</int32>
+        <uint32 key="componentCount">4</uint32>
+        <bool8 key="normalized">False</bool8>
+        <uint32 key="offset">24</uint32>
+      </block>
+      <block>
+        <string key="semantic">texture0</string>
+        <uint32 key="index">3</uint32>
+        <int32 key="type">5</int32>
+        <uint32 key="componentCount">2</uint32>
+        <bool8 key="normalized">False</bool8>
+        <uint32 key="offset">40</uint32>
+      </block>
+    </block>
+  </block>
+  <bytes key="vertices">6a42963b8ea6a9bb52591cbe2e0c42bd0b7c7fbf99bd2cbd1dac7f3fadc63ebd7795a1bc000080bf42f68f3e987c4b3ea09e943e408c11bd5894cb3cffc6e9bda53c7ebf713fd83cda0c7e3f62e7e6bd434b4b3d000080bf96f1e43ee411ed3da05cb33a78732abb3c5e2a3c4a4676bda94d7fbf35be2e3d2d7c7f3f218679bdf1b88fbc000080bf42f68f3ee411ed3deba1a13ed2f917bdaf0d0cbe4b56cabdec537ebf98e069bd7d567e3f3f57d0bd06a4503d000080bf96f1e43e987c4b3eec20e1bb282d2f3fc26483bff8491cbce9325cbec7ff79bffff07f3f4172883c3a185cbc000080bf42f68f3e5c0b513f8ae8ea3ef52f023f287076bfcce4173db0809fbe471373bf4d267f3f5a296bbdfa976c3d000080bf96f1e43e7bed3c3f1066e5bb700e093f54597dbf16aa2ebc6a85a0bee71373bff0f27f3fb1e04f3c168d7cbc000080bf42f68f3e7bed3c3f229cf33e9a5e283f91667fbf7b4e3f3d50e258befee779bf892c7f3f581e5dbd6e50733d000080bf96f1e43e5c0b513fc0f042bb005d123c9adc353e328787bd30ca7ebf3495913d455e7f3fbc938abd2a8699bc000080bf42f68f3ee0f8f93c4dd48cbed086903c88c44c3e44165fbc26047fbf8331b13d5f107f3fa285aabc0eb4a9bd000080bf88b9ed3de0f8f93cb4a794be0071053a0cec103d52a8babb778c7fbfb2fc713da9077f3fb7d230bc51bfb0bd000080bf88b9ed3de411ed3d8c299dbe2042fabbfe0a00be70e7af3bcfe87fbf1b71d5bc9afd7e3f14c2fa3b5e02b5bd000080bf88b9ed3d987c4b3ec098cebb8139cb3e98036ebfafe82cbc646c04bf8d125bbf20f37f3f3ad2113c841491bc000080bf42f68f3e0c2a293fb932e3be8e14ba3ecfb163bf91851cbd9cfb06bf2e4d59bfdd2d7e3fab469b3d11ffbbbd000080bf88b9ed3d0c2a293f44eeecbe2604ff3ec4c972bf005973bdcb5ba4be41f971bf57107e3f29c8a93d2a6ab9bd000080bf88b9ed3d7bed3c3f225af5be70be243f740d7cbf0f478abd17d960be4a2779bf420f7e3fe454af3dae8eb4bd000080bf88b9ed3d5c0b513f6619873e20dcccbc5c21433eb4baf9bd23b57dbf46de5e3dc1d97d3f1240f4bd2db84c3d000080bf96f1e43ee0f8f93c9ea0e13ea854bd3e7b9267bf22e3883c0c3e04bf1d285bbf62257f3fd8f074bdf17b633d000080bf96f1e43e0c2a293f40a4f6bbe2947a3f494a8abf18f6cdbb695b2bbe92627cbf7dec7f3f78cfb53c0e2526bc000080bf42f68f3e5f03783f8c8a013f16ee733f902086bf9774593d5d7c27bec32f7cbf552d7f3f6f3d4fbd61717e3d000080bf96f1e43e5f03783fa0dde8bb63f6543f961887bf6bc001bcb06337be5bda7bbf2eef7f3f9f759f3c0ce93dbc000080bf42f68f3ee8a1643f068afb3eed3a4e3fd62a83bf4321523d25cd33be2aae7bbf7c297f3f826757bd1d827b3d000080bf96f1e43ee8a1643f885efdbea5a2493f71a681bf0b3f8dbdea753bbebb0d7bbf64f17d3fee44bc3d4a04b2bd000080bf88b9ed3de8a1643f999702bfca5a6e3f1cc584bf54a88dbdf9cb2ebed49e7bbfa6e87d3fdfadc03d9c68b0bd000080bf88b9ed3d5f03783f10d7b53b3a7d263cb0749dbef31d16bdef087cbffc8f2fbecacc7f3f7b7709bd120aabbc000080bf42f68f3e6a4e8e3e58a1ad3e500caabc629894be7d3ca6bdc6c87abfca1a3cbefd937e3f9e64bcbdf67e513d000080bf96f1e43e6a4e8e3e9e5c9c3bff7e3c3d2ebee7be0809e4bc9ddc71bf9030a7be08e17f3f3b9ab4bc0379afbc000080bf42f68f3ead4fb53eabdeb83e70aa833cf62adebe664c7bbd869f70bf9dedabbe40c57e3f51a2aabd6e7a523d000080bf96f1e43ead4fb53e6908a7bec08a0f3bfce48dbe1679163cf0d17cbf799f20be2edc7e3f298ac23ccdd3babd000080bf88b9ed3d6a4e8e3ea205b2beaa9f053dbdd8d6bedd23d93b401173bf0da4a0be01b47e3f298f1a3d5fd4bebd000080bf88b9ed3dad4fb53e3011353b0a0ad73d182116bfb0dca8bcb55761bf9fb9f2be9cec7f3f70f544bc493cadbc000080bf42f68f3e8f83db3ea99bc33e748f9b3d2df710bf88de29bd933260bfdd3df6be48eb7e3f93009bbd2ecb543d000080bf96f1e43e8f83db3ec0d40fb95a9c3c3ef83b36bfa67872bc7aa14fbf13b415bf04f27f3f09f369bb0fb7a6bc000080bf42f68f3ee824013f80f0cd3ee9ae1f3eb6ab30bf4af7cabc9d964ebf970d17bfb9067f3f32d58dbdd09e583d000080bf96f1e43ee824013f85e2bdbee6b9b03d441c0dbf0d2e303a00d162bfb267edbeaf8d7e3fd5094c3d7ffcbfbd000080bf88b9ed3d8f83db3e1160cabed226243e0bb82cbf56379cbb742c51bf619513bf1d6a7e3f504e763dee60bfbd000080bf88b9ed3de824013f4ef5d73e1d92813e91ed4ebfac6decbb6f3d35bffbc934bffc137f3f289f84bd1e35603d000080bf96f1e43e1f44153f60296bbb38b58f3e4deb54bf71b036bc08ea35bff11834bf05f47f3fcd00453b2fb19abc000080bf42f68f3e1f44153f093fd7be8ae7803e90f54abfb1ca7bbc3bd137bf4e2232bf8d397e3fd4af8f3d7830c1bd000080bf88b9ed3d1f44153f</bytes>
+  <bytes key="indices">000001000200010000000300040005000600050004000700080009000a0008000a00020002000b0000000b0002000a000c000d000e000c000e0006000f0006000e0006000f00040010000800020010000200010011000c00060011000600050012001300140015001400130004001500070015000400140004000f001600040016001400170014001600140017001200030000001800030018001900190018001a0019001a001b0018001c001d0018001d001a0000000b001c0000001c0018001b001a001e001b001e001f001f001e0020001f0020002100220020001e002000220023001d001e001a001e001d0022000c002400250024000c0011002100200025002100250024002300250020002500230026000d000c002600250026000c00</bytes>
+  <block key="blendshapes"/>
+  <uint32 key="vertexCacheVersion">2</uint32>
+  <block key="vertexCache"/>
+  <block key="vertexCacheAabbKeyframes"/>
+  <vec3f key="bbmin">
+    <float32>-0.5101257</float32>
+    <float32>-0.03710348</float32>
+    <float32>-1.080392</float32>
+  </vec3f>
+  <vec3f key="bbmax">
+    <float32>0.5060203</float32>
+    <float32>0.9788343</float32>
+    <float32>0.19996846</float32>
+  </vec3f>
+  <vec2f key="texmin">
+    <float32>0.0</float32>
+    <float32>0.0</float32>
+  </vec2f>
+  <vec2f key="texmax">
+    <float32>0.0</float32>
+    <float32>0.0</float32>
+  </vec2f>
+  <block key="skinbones"/>
+  <block key="rgroups"/>
+  <block key="submeshes"/>
+</resource>
